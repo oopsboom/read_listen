@@ -1,0 +1,20 @@
+<!--components/post/index.wxml-->
+<view  class="post-container" bind:tap="onTap">
+    <view class="post-author-date">
+      <image class="post-author" src="{{res.avatar}}"></image>
+      <text class="post-name">{{res.name}}</text>
+    </view>
+    
+    <image class="post-image" src="{{res.imgSrc}}"></image>
+    <text user-select class="post-content">{{res.content}}
+    </text>
+
+    <view class="post-like">
+   
+      <l-icon class="post-like-image" name="favor" color="#666" size="32"> </l-icon>
+      <text class="post-like-font">{{res.collection}}</text>
+     
+      <l-icon  class="post-like-image" name="eye" color="#666" size="32"> </l-icon>
+      <text class="post-like-font">{{res.reading}}</text>
+    </view>
+  </view>

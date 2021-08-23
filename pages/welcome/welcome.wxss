@@ -1,0 +1,32 @@
+/* pages/welcome/welcome.wxss */
+page{
+  background-color:#72ACCC;
+}
+
+.l-avatar{
+  margin-top: 180rpx;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.motto{
+  color: #666;
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.journey-container{
+  border: 4rpx solid #405f80;
+  border-radius: 20rpx;
+  width: 200rpx;
+  height: 80rpx;
+  text-align: center;
+  margin-top: 200rpx;
+}
+.journey{
+  line-height: 80rpx;
+  color:#405f83 ;
+  font-weight: bold;
+}

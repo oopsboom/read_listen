@@ -1,0 +1,17 @@
+<view>
+  <swiper indicator-dots autoplay interval="3000">
+    <swiper-item>
+      <image data-post-id="1" bind:tap="onGoTo" src="/images/content/22.jpg" alt=""></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-post-id="2" bind:tap="onGoTo" src="/images/content/12.jpg" alt=""></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-post-id="3" bind:tap="onGoTo" src="/images/content/21.jpg" alt=""></image>
+    </swiper-item>
+  </swiper>
+
+ <block wx:for="{{ postsList}}" wx:key="index">
+    <post bind:posttap="onGoToDetail" res="{{item}}"></post>
+ </block>
+</view>

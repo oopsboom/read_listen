@@ -1,0 +1,9 @@
+<!--pages/welcome/welcome.wxml-->
+<veiw class="container">
+  <l-avatar class="l-avatar" l-text-class="l-avatar-text" placement="bottom"
+    open-data="{{['userAvatarUrl','userNickName']}}" size="180"></l-avatar>
+  <text class="motto">hi!  hi！hi！</text>
+  <view class="journey-container"  bindtap="onTap">
+    <text class="journey" >欢迎进入~</text>
+  </view>
+</veiw>
